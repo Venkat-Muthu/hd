@@ -13,9 +13,10 @@ Technical implementation details : <br/>
 1. The project has two major modules. <br/>
 	a. LogSimulator will create a log file called : file01.txt. The will simulate simplified W3C log file with URL : /images/picture"X".jpg, where "X" is mod of 10.<br/>
 	b. LogReader will read the file : file01.txt simultaneously and updates the value in the data store.<br/>
-	c. A timer runs at the interval of 5 seconds display the top 5 most visited URLs in live.<br/>
-	d. Press any key to termnate the application.<br/>
-	e. Ranking can be compared at any time with the file : file01.txt<br/>
+	c. A timer runs at the interval of 5 seconds to display the top 5 most visited URLs in real time.<br/>
+	d. More files can be monitored with LogSimulator and the feeds from multiple log files can be joined together to aggregate the ranking
+	e. Press any key to termnate the application.<br/>
+	f. Ranking can be compared at any time with the file : file01.txt<br/>
 
 Output
 ![Output Screenshot](Screenshots/output.jpg?raw=true "Output")
